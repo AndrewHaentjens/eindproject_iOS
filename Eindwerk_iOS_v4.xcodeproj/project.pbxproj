@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		492584071C9421AD00D9F6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492584061C9421AD00D9F6E3 /* AppDelegate.swift */; };
 		4925840C1C9421AD00D9F6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4925840A1C9421AD00D9F6E3 /* Main.storyboard */; };
-		4925840E1C9421AD00D9F6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4925840D1C9421AD00D9F6E3 /* Assets.xcassets */; };
 		492584111C9421AD00D9F6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4925840F1C9421AD00D9F6E3 /* LaunchScreen.storyboard */; };
 		492584191C94239200D9F6E3 /* ProceduresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492584181C94239200D9F6E3 /* ProceduresViewController.swift */; };
 		4925841B1C94257D00D9F6E3 /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925841A1C94257D00D9F6E3 /* Procedure.swift */; };
@@ -21,13 +20,22 @@
 		4925842E1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925842D1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift */; };
 		492584301C96D25A00D9F6E3 /* QRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925842F1C96D25A00D9F6E3 /* QRCodeController.swift */; };
 		492FED591C97FAE30056AEC8 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FED581C97FAE30056AEC8 /* info-icon.png */; };
+		49F4D19D1CA1387700AFEFF0 /* WatIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */; };
+		49F4D19E1CA1387700AFEFF0 /* HoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */; };
+		49F4D19F1CA1387700AFEFF0 /* OpeningstijdenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */; };
+		49F4D1A01CA1387700AFEFF0 /* IconenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D19A1CA1387700AFEFF0 /* IconenViewController.swift */; };
+		49F4D1A11CA1387700AFEFF0 /* ProbleemMeldenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D19B1CA1387700AFEFF0 /* ProbleemMeldenViewController.swift */; };
+		49F4D1A21CA1387700AFEFF0 /* IcoonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D19C1CA1387700AFEFF0 /* IcoonDetailViewController.swift */; };
+		49F4D1A51CA139ED00AFEFF0 /* Icoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1A31CA139ED00AFEFF0 /* Icoon.swift */; };
+		49F4D1A61CA139ED00AFEFF0 /* IconenDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1A41CA139ED00AFEFF0 /* IconenDataSource.swift */; };
+		49F4D1A91CA13A5800AFEFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F4D1A81CA13A5800AFEFF0 /* Assets.xcassets */; };
+		49F4D1AB1CA13C2E00AFEFF0 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1AA1CA13C2E00AFEFF0 /* InfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		492584031C9421AD00D9F6E3 /* Eindwerk_iOS_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eindwerk_iOS_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492584061C9421AD00D9F6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4925840B1C9421AD00D9F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4925840D1C9421AD00D9F6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492584101C9421AD00D9F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492584121C9421AD00D9F6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492584181C94239200D9F6E3 /* ProceduresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProceduresViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +48,16 @@
 		4925842D1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedureDetailViewController.swift; sourceTree = "<group>"; };
 		4925842F1C96D25A00D9F6E3 /* QRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeController.swift; sourceTree = "<group>"; };
 		492FED581C97FAE30056AEC8 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
+		49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatIsViewController.swift; sourceTree = "<group>"; };
+		49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoeViewController.swift; sourceTree = "<group>"; };
+		49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningstijdenViewController.swift; sourceTree = "<group>"; };
+		49F4D19A1CA1387700AFEFF0 /* IconenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconenViewController.swift; sourceTree = "<group>"; };
+		49F4D19B1CA1387700AFEFF0 /* ProbleemMeldenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProbleemMeldenViewController.swift; sourceTree = "<group>"; };
+		49F4D19C1CA1387700AFEFF0 /* IcoonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IcoonDetailViewController.swift; sourceTree = "<group>"; };
+		49F4D1A31CA139ED00AFEFF0 /* Icoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icoon.swift; sourceTree = "<group>"; };
+		49F4D1A41CA139ED00AFEFF0 /* IconenDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconenDataSource.swift; sourceTree = "<group>"; };
+		49F4D1A81CA13A5800AFEFF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F4D1AA1CA13C2E00AFEFF0 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,7 @@
 		492584051C9421AD00D9F6E3 /* Eindwerk_iOS_v4 */ = {
 			isa = PBXGroup;
 			children = (
+				49F4D1A71CA139F300AFEFF0 /* Iconen */,
 				492FED5A1C97FAF70056AEC8 /* Assets */,
 				492584251C95919300D9F6E3 /* AppMisc */,
 				492584261C9591AE00D9F6E3 /* Views */,
@@ -114,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				492584061C9421AD00D9F6E3 /* AppDelegate.swift */,
-				4925840D1C9421AD00D9F6E3 /* Assets.xcassets */,
+				49F4D1A81CA13A5800AFEFF0 /* Assets.xcassets */,
 				4925840F1C9421AD00D9F6E3 /* LaunchScreen.storyboard */,
 				492584121C9421AD00D9F6E3 /* Info.plist */,
 			);
@@ -127,6 +146,13 @@
 				4925840A1C9421AD00D9F6E3 /* Main.storyboard */,
 				492584181C94239200D9F6E3 /* ProceduresViewController.swift */,
 				4925842D1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift */,
+				49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */,
+				49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */,
+				49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */,
+				49F4D19A1CA1387700AFEFF0 /* IconenViewController.swift */,
+				49F4D19B1CA1387700AFEFF0 /* ProbleemMeldenViewController.swift */,
+				49F4D19C1CA1387700AFEFF0 /* IcoonDetailViewController.swift */,
+				49F4D1AA1CA13C2E00AFEFF0 /* InfoTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -137,6 +163,15 @@
 				492FED581C97FAE30056AEC8 /* info-icon.png */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		49F4D1A71CA139F300AFEFF0 /* Iconen */ = {
+			isa = PBXGroup;
+			children = (
+				49F4D1A31CA139ED00AFEFF0 /* Icoon.swift */,
+				49F4D1A41CA139ED00AFEFF0 /* IconenDataSource.swift */,
+			);
+			name = Iconen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				492584111C9421AD00D9F6E3 /* LaunchScreen.storyboard in Resources */,
-				4925840E1C9421AD00D9F6E3 /* Assets.xcassets in Resources */,
 				492FED591C97FAE30056AEC8 /* info-icon.png in Resources */,
+				49F4D1A91CA13A5800AFEFF0 /* Assets.xcassets in Resources */,
 				4925840C1C9421AD00D9F6E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,11 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F4D1A11CA1387700AFEFF0 /* ProbleemMeldenViewController.swift in Sources */,
+				49F4D19D1CA1387700AFEFF0 /* WatIsViewController.swift in Sources */,
+				49F4D19E1CA1387700AFEFF0 /* HoeViewController.swift in Sources */,
 				492584191C94239200D9F6E3 /* ProceduresViewController.swift in Sources */,
+				49F4D1A21CA1387700AFEFF0 /* IcoonDetailViewController.swift in Sources */,
+				49F4D19F1CA1387700AFEFF0 /* OpeningstijdenViewController.swift in Sources */,
 				4925842E1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift in Sources */,
+				49F4D1A51CA139ED00AFEFF0 /* Icoon.swift in Sources */,
 				492584221C95912700D9F6E3 /* NamingSpace.swift in Sources */,
 				4925842C1C96BD0E00D9F6E3 /* TaskQueue.swift in Sources */,
 				4925841D1C9426AE00D9F6E3 /* Categorie.swift in Sources */,
+				49F4D1AB1CA13C2E00AFEFF0 /* InfoTableViewCell.swift in Sources */,
+				49F4D1A01CA1387700AFEFF0 /* IconenViewController.swift in Sources */,
+				49F4D1A61CA139ED00AFEFF0 /* IconenDataSource.swift in Sources */,
 				4925841B1C94257D00D9F6E3 /* Procedure.swift in Sources */,
 				4925841F1C942C4900D9F6E3 /* SwiftyJSON.swift in Sources */,
 				4925842A1C95A2C300D9F6E3 /* Section.swift in Sources */,

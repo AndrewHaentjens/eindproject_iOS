@@ -21,6 +21,16 @@
 		492584301C96D25A00D9F6E3 /* QRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925842F1C96D25A00D9F6E3 /* QRCodeController.swift */; };
 		492FED591C97FAE30056AEC8 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FED581C97FAE30056AEC8 /* info-icon.png */; };
 		497AB7441CA2AA8900A74860 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AB7431CA2AA8900A74860 /* CoreLocation.framework */; };
+		498B6B921CA4285400E0540D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B6B8E1CA4285400E0540D /* ViewController.swift */; };
+		498B6B931CA4285400E0540D /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B6B8F1CA4285400E0540D /* RestApiManager.swift */; };
+		498B6B941CA4285400E0540D /* StapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B6B901CA4285400E0540D /* StapItem.swift */; };
+		498B6B951CA4285400E0540D /* StepItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B6B911CA4285400E0540D /* StepItemController.swift */; };
+		498B6B9C1CA429EC00E0540D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 498B6B961CA429EC00E0540D /* 1.png */; };
+		498B6B9D1CA429EC00E0540D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 498B6B971CA429EC00E0540D /* 2.png */; };
+		498B6B9E1CA429EC00E0540D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 498B6B981CA429EC00E0540D /* 3.png */; };
+		498B6B9F1CA429EC00E0540D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 498B6B991CA429EC00E0540D /* 4.png */; };
+		498B6BA01CA429EC00E0540D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 498B6B9A1CA429EC00E0540D /* 5.png */; };
+		498B6BA11CA429EC00E0540D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 498B6B9B1CA429EC00E0540D /* 6.png */; };
 		49F4D19D1CA1387700AFEFF0 /* WatIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */; };
 		49F4D19E1CA1387700AFEFF0 /* HoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */; };
 		49F4D19F1CA1387700AFEFF0 /* OpeningstijdenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */; };
@@ -50,6 +60,16 @@
 		4925842F1C96D25A00D9F6E3 /* QRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeController.swift; sourceTree = "<group>"; };
 		492FED581C97FAE30056AEC8 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
 		497AB7431CA2AA8900A74860 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		498B6B8E1CA4285400E0540D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		498B6B8F1CA4285400E0540D /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		498B6B901CA4285400E0540D /* StapItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StapItem.swift; sourceTree = "<group>"; };
+		498B6B911CA4285400E0540D /* StepItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepItemController.swift; sourceTree = "<group>"; };
+		498B6B961CA429EC00E0540D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		498B6B971CA429EC00E0540D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		498B6B981CA429EC00E0540D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		498B6B991CA429EC00E0540D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		498B6B9A1CA429EC00E0540D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		498B6B9B1CA429EC00E0540D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatIsViewController.swift; sourceTree = "<group>"; };
 		49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoeViewController.swift; sourceTree = "<group>"; };
 		49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningstijdenViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +177,10 @@
 				49F4D19B1CA1387700AFEFF0 /* ProbleemMeldenViewController.swift */,
 				49F4D19C1CA1387700AFEFF0 /* IcoonDetailViewController.swift */,
 				49F4D1AA1CA13C2E00AFEFF0 /* InfoTableViewCell.swift */,
+				498B6B8E1CA4285400E0540D /* ViewController.swift */,
+				498B6B8F1CA4285400E0540D /* RestApiManager.swift */,
+				498B6B901CA4285400E0540D /* StapItem.swift */,
+				498B6B911CA4285400E0540D /* StepItemController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -165,6 +189,12 @@
 			isa = PBXGroup;
 			children = (
 				492FED581C97FAE30056AEC8 /* info-icon.png */,
+				498B6B961CA429EC00E0540D /* 1.png */,
+				498B6B971CA429EC00E0540D /* 2.png */,
+				498B6B981CA429EC00E0540D /* 3.png */,
+				498B6B991CA429EC00E0540D /* 4.png */,
+				498B6B9A1CA429EC00E0540D /* 5.png */,
+				498B6B9B1CA429EC00E0540D /* 6.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -242,10 +272,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498B6B9D1CA429EC00E0540D /* 2.png in Resources */,
 				492584111C9421AD00D9F6E3 /* LaunchScreen.storyboard in Resources */,
 				492FED591C97FAE30056AEC8 /* info-icon.png in Resources */,
 				49F4D1A91CA13A5800AFEFF0 /* Assets.xcassets in Resources */,
+				498B6BA11CA429EC00E0540D /* 6.png in Resources */,
+				498B6B9F1CA429EC00E0540D /* 4.png in Resources */,
 				4925840C1C9421AD00D9F6E3 /* Main.storyboard in Resources */,
+				498B6BA01CA429EC00E0540D /* 5.png in Resources */,
+				498B6B9E1CA429EC00E0540D /* 3.png in Resources */,
+				498B6B9C1CA429EC00E0540D /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +296,16 @@
 				49F4D19D1CA1387700AFEFF0 /* WatIsViewController.swift in Sources */,
 				49F4D19E1CA1387700AFEFF0 /* HoeViewController.swift in Sources */,
 				492584191C94239200D9F6E3 /* ProceduresViewController.swift in Sources */,
+				498B6B951CA4285400E0540D /* StepItemController.swift in Sources */,
 				49F4D1A21CA1387700AFEFF0 /* IcoonDetailViewController.swift in Sources */,
+				498B6B931CA4285400E0540D /* RestApiManager.swift in Sources */,
 				49F4D19F1CA1387700AFEFF0 /* OpeningstijdenViewController.swift in Sources */,
 				4925842E1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift in Sources */,
 				49F4D1A51CA139ED00AFEFF0 /* Icoon.swift in Sources */,
 				492584221C95912700D9F6E3 /* NamingSpace.swift in Sources */,
 				4925842C1C96BD0E00D9F6E3 /* TaskQueue.swift in Sources */,
+				498B6B921CA4285400E0540D /* ViewController.swift in Sources */,
+				498B6B941CA4285400E0540D /* StapItem.swift in Sources */,
 				4925841D1C9426AE00D9F6E3 /* Categorie.swift in Sources */,
 				49F4D1AB1CA13C2E00AFEFF0 /* InfoTableViewCell.swift in Sources */,
 				49F4D1A01CA1387700AFEFF0 /* IconenViewController.swift in Sources */,

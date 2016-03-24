@@ -251,17 +251,23 @@ class ProceduresViewController: UIViewController, UITableViewDelegate, UITableVi
         
         if(segue.identifier == "toProcedureDetail") {
             
-            let destination = (segue.destinationViewController as! ProcedureDetailViewController)
+            let destination = (segue.destinationViewController as! ViewController)
             
             if(searchActive) {
                 let selectedRow = proceduresTableView.indexPathForSelectedRow?.row
-                destination.value = filteredProcedures[selectedRow!].PNaam
+                destination.procedureId = filteredProcedures[selectedRow!].PId
                 
             } else {
                 
                 let selectedSection = proceduresTableView.indexPathForSelectedRow?.section
                 let selectedRow = proceduresTableView.indexPathForSelectedRow!.row
-                destination.value = lijstSections[selectedSection!].items[selectedRow]
+                let procedureName: String = lijstSections[selectedSection!].items[selectedRow]
+                for procedure in lijstProcedures {
+                    if procedure.PNaam == procedureName {
+                        destination.procedureId = procedure.PId
+                    }
+                }
+                
             }
         }
     }

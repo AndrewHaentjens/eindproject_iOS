@@ -18,7 +18,7 @@ class QRCodeController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
     var vwQRCode = UIView()
     var lijstProcedures = [Procedure]()
     var idToCompare = Int()
-    var stringToPass = String("")
+    var idToPass = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -139,7 +139,7 @@ class QRCodeController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
                 
                 for procedure in lijstProcedures {
                     if(procedure.PId == idToCompare) {
-                        self.stringToPass = procedure.PNaam
+                        self.idToPass = procedure.PId
                     }
                 }
                 performSegueWithIdentifier("QRToProcedureDetail", sender: self)
@@ -161,8 +161,8 @@ class QRCodeController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
     // de procedure doorgeven aan het volgende scherm
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if(segue.identifier == "QRToProcedureDetail") {
-            let destination = (segue.destinationViewController as! ProcedureDetailViewController)
-            destination.value = self.stringToPass
+            let destination = (segue.destinationViewController as! ViewController)
+            destination.procedureId = self.idToPass
         }
     }
 }

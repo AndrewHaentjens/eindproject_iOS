@@ -917,7 +917,7 @@ Laarbeeklaan 121
                         <viewControllerLayoutGuide type="top" id="2NM-sA-Ets"/>
                         <viewControllerLayoutGuide type="bottom" id="0oT-nN-Ran"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iPq-Hq-Hbj">
+                    <view key="view" contentMode="scaleAspectFit" id="iPq-Hq-Hbj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -992,7 +992,7 @@ Laarbeeklaan 121
         </scene>
     </scenes>
     <resources>
-        <image name="1.png" width="90" height="181"/>
+        <image name="1.png" width="160" height="160"/>
         <image name="Iconen" width="502" height="665"/>
         <image name="WetLab_logo" width="630" height="480"/>
         <image name="back_button" width="22" height="22"/>

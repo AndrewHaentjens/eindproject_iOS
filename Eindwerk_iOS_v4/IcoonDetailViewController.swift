@@ -14,22 +14,19 @@ class IcoonDetailViewController: UIViewController {
     @IBOutlet weak var IcoonNaamLabel: UILabel!
     @IBOutlet weak var IcoonText: UITextView!
     
-    
-    
+    let iconenDOA = IconenDataSource()
+    var recievedIdBtn = Int()
 
-   
-    
-//    @IBOutlet func dismissViewControllerAnimated(_ flag: Bool, completion completion: (() -> Void)?)
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-
         // Do any additional setup after loading the view.
+        for item in iconenDOA.iconen {
+            if item.id == recievedIdBtn {
+                icoonView.image = item.icoonTeken
+                IcoonNaamLabel.text = item.icoonNaam
+                IcoonText.text = item.icoonText
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

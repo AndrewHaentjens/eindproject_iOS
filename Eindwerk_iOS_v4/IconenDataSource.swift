@@ -25,22 +25,22 @@ class IconenDataSource {
         let oxiderend = Icoon(id: 3, icoonTeken: UIImage(named: "Iconen_oxiderend.png"), icoonNaam: "Oxiderend", icoonText: "Oxiderende producten bevatten veel zuurstof en bevorderen zo sterk de verbranding van ontvlambare of brandbare stoffen.")
         iconen.append(oxiderend!)
         
-        let ontplofbaar = Icoon(id: 4, icoonTeken: UIImage(named: "Iconen_gontplofbaar.png"), icoonNaam: "Ontplofbaar", icoonText: "Ontplofbare producten kunnen door een vlam, warmte, een schok of wrijving tot ontploffing komen. Ze kunnen ernstige verwondingen en grote materiële schade veroorzaken.")
+        let ontplofbaar = Icoon(id: 4, icoonTeken: UIImage(named: "Iconen_ontplofbaar.png"), icoonNaam: "Ontplofbaar", icoonText: "Ontplofbare producten kunnen door een vlam, warmte, een schok of wrijving tot ontploffing komen. Ze kunnen ernstige verwondingen en grote materiële schade veroorzaken.")
         iconen.append(ontplofbaar!)
         
         let milieugevaarlijk = Icoon(id: 5, icoonTeken: UIImage(named: "Iconen_milieugevaarlijk.png"), icoonNaam: "Milieugevaarlijk", icoonText: "Milieugevaarlijke producten vormen op korte of lange termijn een risico voor de fauna en flora in het water en tasten de ozonlaag aan als ze in de natuur terechtkomen.")
         iconen.append(milieugevaarlijk!)
         
-        let irriterend = Icoon(id: 6, icoonTeken: UIImage(named: "Iconen_girriterend.png"), icoonNaam: "Irriterend / Schadelijk", icoonText: "Irriterende producten veroorzaken bij direct, langdurig of herhaald contact jeuk, roodheid van de huid of ontstekingen. Als de dosis hoog is, kunnen ze schadelijk zijn.")
+        let irriterend = Icoon(id: 6, icoonTeken: UIImage(named: "Iconen_irriterend.png"), icoonNaam: "Irriterend / Schadelijk", icoonText: "Irriterende producten veroorzaken bij direct, langdurig of herhaald contact jeuk, roodheid van de huid of ontstekingen. Als de dosis hoog is, kunnen ze schadelijk zijn.")
         iconen.append(irriterend!)
         
-        let houder = Icoon(id: 7, icoonTeken: UIImage(named: "hIconen_houder_onder_druk.png"), icoonNaam: "Houder onder druk", icoonText: "Deze producten zijn opgeslagen in een houder onder druk. Het gaat bijvoorbeeld om flessen met zuurstof, acetyleen, koolmonoxide of kooldioxide.")
+        let houder = Icoon(id: 7, icoonTeken: UIImage(named: "Iconen_houder_onder_druk.png"), icoonNaam: "Houder onder druk", icoonText: "Deze producten zijn opgeslagen in een houder onder druk. Het gaat bijvoorbeeld om flessen met zuurstof, acetyleen, koolmonoxide of kooldioxide.")
         iconen.append(houder!)
         
-        let gezondheidsgevaarlijk = Icoon(id: 8, icoonTeken: UIImage(named: "Iconen_gezondheidsgevaarlijk.png"), icoonNaam: "Lange termijn gezondheidsgevaarlijk", icoonText: "Deze producten zijn kankerverwekkend, brengen het erfelijk materiaal schade toe (mutageen) of hebben een nadelige invloed op de vruchtbaarheid en het ongeboren kind (reprotoxisch).")
+        let gezondheidsgevaarlijk = Icoon(id: 8, icoonTeken: UIImage(named: "Iconen_gezondheidsgevaarlijk.png"), icoonNaam: "Gezondheidsgevaarlijk", icoonText: "Deze producten zijn kankerverwekkend, brengen het erfelijk materiaal schade toe (mutageen) of hebben een nadelige invloed op de vruchtbaarheid en het ongeboren kind (reprotoxisch).")
         iconen.append(gezondheidsgevaarlijk!)
         
-        let biohazard = Icoon(id: 9, icoonTeken: UIImage(named: "Iconen_biohazard.png"), icoonNaam: "Biohazard", icoonText: "Biohazard is biomedisch of besmettelijk afval zoals urine, bloed en naalden gebruikt voor vaccins. Juiste afvoer en zorg is nodig om ziekte te voorkomen. Dit afval is een gevolg van menselijke of dierlijke behandeling en bevat materialen die als besmettelijk of potentieel gevaarlijk worden beschouwd.")
+        let biohazard = Icoon(id: 9, icoonTeken: UIImage(named: "Icoon_biohazard.png"), icoonNaam: "Biohazard", icoonText: "Biohazard is biomedisch of besmettelijk afval zoals urine, bloed en naalden gebruikt voor vaccins. Juiste afvoer en zorg is nodig om ziekte te voorkomen. Dit afval is een gevolg van menselijke of dierlijke behandeling en bevat materialen die als besmettelijk of potentieel gevaarlijk worden beschouwd.")
         iconen.append(biohazard!)
         
         

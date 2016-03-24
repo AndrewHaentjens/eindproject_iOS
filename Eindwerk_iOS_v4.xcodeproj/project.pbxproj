@@ -20,6 +20,7 @@
 		4925842E1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925842D1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift */; };
 		492584301C96D25A00D9F6E3 /* QRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925842F1C96D25A00D9F6E3 /* QRCodeController.swift */; };
 		492FED591C97FAE30056AEC8 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 492FED581C97FAE30056AEC8 /* info-icon.png */; };
+		497AB7441CA2AA8900A74860 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AB7431CA2AA8900A74860 /* CoreLocation.framework */; };
 		49F4D19D1CA1387700AFEFF0 /* WatIsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */; };
 		49F4D19E1CA1387700AFEFF0 /* HoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */; };
 		49F4D19F1CA1387700AFEFF0 /* OpeningstijdenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */; };
@@ -48,6 +49,7 @@
 		4925842D1C96C9D100D9F6E3 /* ProcedureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedureDetailViewController.swift; sourceTree = "<group>"; };
 		4925842F1C96D25A00D9F6E3 /* QRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeController.swift; sourceTree = "<group>"; };
 		492FED581C97FAE30056AEC8 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
+		497AB7431CA2AA8900A74860 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		49F4D1971CA1387600AFEFF0 /* WatIsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatIsViewController.swift; sourceTree = "<group>"; };
 		49F4D1981CA1387700AFEFF0 /* HoeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoeViewController.swift; sourceTree = "<group>"; };
 		49F4D1991CA1387700AFEFF0 /* OpeningstijdenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningstijdenViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497AB7441CA2AA8900A74860 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,7 @@
 		492583FA1C9421AD00D9F6E3 = {
 			isa = PBXGroup;
 			children = (
+				497AB7431CA2AA8900A74860 /* CoreLocation.framework */,
 				492584051C9421AD00D9F6E3 /* Eindwerk_iOS_v4 */,
 				492584041C9421AD00D9F6E3 /* Products */,
 			);
@@ -207,6 +211,11 @@
 					492584021C9421AD00D9F6E3 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 2565XKN57Z;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};

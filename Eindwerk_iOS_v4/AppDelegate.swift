@@ -7,15 +7,31 @@
 //
 
 import UIKit
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
+    let locationManager = CLLocationManager()
 
+    //"BEC26202-A8D8-4A94-80FC-9AC1DE37DAA6"
+    //"Betreden Labo"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        locationManager.delegate = self
+        
+        locationManager.requestAlwaysAuthorization()
+        
+        let beaconRegion = CLBeaconRegion(proximityUUID: NSUUID(UUIDString: "BEC26202-A8D8-4A94-80FC-9AC1DE37DAA6")!, major: 0, minor: 1, identifier: "Betreden Labo")
+        locationManager.startMonitoringForRegion(beaconRegion)
+        locationManager.startRangingBeaconsInRegion(beaconRegion)
+        
+        let notificationType: UIUserNotificationType = UIUserNotificationType.Alert
+        let notificationSettings = UIUserNotificationSettings(forTypes: notificationType, categories: nil)
+        UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
+        
         return true
     }
 
@@ -40,7 +56,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        
+    }
+}
 
-
+extension AppDelegate: CLLocationManagerDelegate {
+    
+    func locationManager(manager: CLLocationManager, monitoringDidFailForRegion region: CLRegion?, withError error: NSError) {
+        print("Failed monitoring region: \(error.description)")
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print("Location manager failed: \(error.description)")
+    }
+    
+    func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        let notification = UILocalNotification()
+        notification.alertBody = "Herinnering: volg procedure voor het betreden van het BL2 laboratorium!"
+        notification.soundName = "Default"
+        UIApplication.sharedApplication().presentLocalNotificationNow(notification)
+    }
+    
 }
 

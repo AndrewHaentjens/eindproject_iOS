@@ -116,7 +116,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
                 //                    print(item["firstName"].stringValue)
                 //                }
                 //            }
-                for (key: String, subJson: JSON) in json {
+                for (key: _, subJson: JSON) in json {
                     let step: StapItem = StapItem(title: "", htmlcontent: "", vorige: 0, stapNr: 0, id: 0, wachtijd: 0)
                     if let sTitel = JSON["STitel"].string {
                         step.STitel = sTitel
@@ -138,7 +138,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
                     }
                     if let afbeelding = JSON["SAfbeeldingId"].dictionary {
                         step.SImage = Image()
-                        for (key: String, subJson: JSON) in afbeelding {
+                        for (key: _, subJson: JSON) in afbeelding {
                             print(JSON["AImagedata"])
                             if let aId = JSON["AId"].int {
                                 step.SImage!.Id = aId
@@ -151,7 +151,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
                                 print(AImagedata)
                             }
                         }
-                        var test = afbeelding["AImagedata"]?.stringValue
+                        let test = afbeelding["AImagedata"]?.stringValue
                         step.SImage!.ImageData = test!
                     }
                     print(step)

@@ -20,7 +20,7 @@ class ProbleemMeldenViewController: UIViewController, MFMailComposeViewControlle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ProbleemMeldenViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
     
@@ -38,16 +38,16 @@ class ProbleemMeldenViewController: UIViewController, MFMailComposeViewControlle
     
     @IBAction func btn_verstuur(sender: AnyObject) {
         
-        var BerichtTekst = tvBericht
+        let BerichtTekst = tvBericht
         
         var Onderwerp = "Melding van WetLab: "
         Onderwerp += tfOnderwerp.text!
         
-        var Ontvanger = ["dominiekvandeputte@me.com"]
+        let Ontvanger = ["dominiekvandeputte@me.com"]
         
         
         
-        var mc: MFMailComposeViewController = MFMailComposeViewController()
+        let mc: MFMailComposeViewController = MFMailComposeViewController()
         mc.mailComposeDelegate = self
         mc.setSubject(Onderwerp)
         mc.setMessageBody(BerichtTekst.text, isHTML: false)

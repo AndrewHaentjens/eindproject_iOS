@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "492584021C9421AD00D9F6E3"
-               BuildableName = "Eindwerk_iOS_v4.app"
-               BlueprintName = "Eindwerk_iOS_v4"
-               ReferencedContainer = "container:Eindwerk_iOS_v4.xcodeproj">
+               BuildableName = "WetLab.app"
+               BlueprintName = "WetLab"
+               ReferencedContainer = "container:WetLab.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "492584021C9421AD00D9F6E3"
-            BuildableName = "Eindwerk_iOS_v4.app"
-            BlueprintName = "Eindwerk_iOS_v4"
-            ReferencedContainer = "container:Eindwerk_iOS_v4.xcodeproj">
+            BuildableName = "WetLab.app"
+            BlueprintName = "WetLab"
+            ReferencedContainer = "container:WetLab.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "492584021C9421AD00D9F6E3"
-            BuildableName = "Eindwerk_iOS_v4.app"
-            BlueprintName = "Eindwerk_iOS_v4"
-            ReferencedContainer = "container:Eindwerk_iOS_v4.xcodeproj">
+            BuildableName = "WetLab.app"
+            BlueprintName = "WetLab"
+            ReferencedContainer = "container:WetLab.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "492584021C9421AD00D9F6E3"
-            BuildableName = "Eindwerk_iOS_v4.app"
-            BlueprintName = "Eindwerk_iOS_v4"
-            ReferencedContainer = "container:Eindwerk_iOS_v4.xcodeproj">
+            BuildableName = "WetLab.app"
+            BlueprintName = "WetLab"
+            ReferencedContainer = "container:WetLab.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

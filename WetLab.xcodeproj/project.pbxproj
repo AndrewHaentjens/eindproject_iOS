@@ -44,7 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		492584031C9421AD00D9F6E3 /* Eindwerk_iOS_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eindwerk_iOS_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492584031C9421AD00D9F6E3 /* WetLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492584061C9421AD00D9F6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4925840B1C9421AD00D9F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492584101C9421AD00D9F6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		492584041C9421AD00D9F6E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				492584031C9421AD00D9F6E3 /* Eindwerk_iOS_v4.app */,
+				492584031C9421AD00D9F6E3 /* WetLab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		492584021C9421AD00D9F6E3 /* Eindwerk_iOS_v4 */ = {
+		492584021C9421AD00D9F6E3 /* WetLab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 492584151C9421AD00D9F6E3 /* Build configuration list for PBXNativeTarget "Eindwerk_iOS_v4" */;
+			buildConfigurationList = 492584151C9421AD00D9F6E3 /* Build configuration list for PBXNativeTarget "WetLab" */;
 			buildPhases = (
 				492583FF1C9421AD00D9F6E3 /* Sources */,
 				492584001C9421AD00D9F6E3 /* Frameworks */,
@@ -223,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = Eindwerk_iOS_v4;
+			name = WetLab;
 			productName = Eindwerk_iOS_v4;
-			productReference = 492584031C9421AD00D9F6E3 /* Eindwerk_iOS_v4.app */;
+			productReference = 492584031C9421AD00D9F6E3 /* WetLab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 492583FE1C9421AD00D9F6E3 /* Build configuration list for PBXProject "Eindwerk_iOS_v4" */;
+			buildConfigurationList = 492583FE1C9421AD00D9F6E3 /* Build configuration list for PBXProject "WetLab" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -262,7 +262,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				492584021C9421AD00D9F6E3 /* Eindwerk_iOS_v4 */,
+				492584021C9421AD00D9F6E3 /* WetLab */,
 			);
 		};
 /* End PBXProject section */
@@ -427,13 +427,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: andrew.haentjens@gmail.com (RMZV2M6PBD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: andrew.haentjens@gmail.com (RMZV2M6PBD)";
 				INFOPLIST_FILE = Eindwerk_iOS_v4/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Eindwerk-iOS-v4";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WetLab;
 			};
 			name = Debug;
 		};
@@ -441,19 +441,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: andrew.haentjens@gmail.com (RMZV2M6PBD)";
 				INFOPLIST_FILE = Eindwerk_iOS_v4/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Eindwerk-iOS-v4";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WetLab;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		492583FE1C9421AD00D9F6E3 /* Build configuration list for PBXProject "Eindwerk_iOS_v4" */ = {
+		492583FE1C9421AD00D9F6E3 /* Build configuration list for PBXProject "WetLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				492584131C9421AD00D9F6E3 /* Debug */,
@@ -462,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		492584151C9421AD00D9F6E3 /* Build configuration list for PBXNativeTarget "Eindwerk_iOS_v4" */ = {
+		492584151C9421AD00D9F6E3 /* Build configuration list for PBXNativeTarget "WetLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				492584161C9421AD00D9F6E3 /* Debug */,

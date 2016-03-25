@@ -13,9 +13,6 @@ class ProbleemMeldenViewController: UIViewController, MFMailComposeViewControlle
 
     //let validator = Validator()
     
-    @IBOutlet weak var tfVoornaam: UITextField!
-    @IBOutlet weak var tfAchternaam: UITextField!
-    @IBOutlet weak var tfEmail: UITextField!
     @IBOutlet weak var tfOnderwerp: UITextField!
     @IBOutlet weak var tvBericht: UITextView!
     
@@ -40,12 +37,6 @@ class ProbleemMeldenViewController: UIViewController, MFMailComposeViewControlle
 
     
     @IBAction func btn_verstuur(sender: AnyObject) {
-       
-        var Voornaam = tfVoornaam
-        
-        var Achternaam = tfAchternaam
-        
-        var Emailadres = tfEmail
         
         var BerichtTekst = tvBericht
         

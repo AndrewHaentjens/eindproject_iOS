@@ -9,7 +9,7 @@
         <!--Procedures-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ProceduresViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ProceduresViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -119,7 +119,7 @@
         <!--Code Controller-->
         <scene sceneID="Dls-8u-qnD">
             <objects>
-                <viewController id="m8b-lk-6Ni" customClass="QRCodeController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m8b-lk-6Ni" customClass="QRCodeController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jxg-IN-tZk"/>
                         <viewControllerLayoutGuide type="bottom" id="kYD-iw-bro"/>
@@ -168,7 +168,7 @@
         <!--View Controller-->
         <scene sceneID="IUx-kz-b63">
             <objects>
-                <viewController id="y6z-Qb-Ht6" customClass="ViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="y6z-Qb-Ht6" customClass="ViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pU4-yt-Wbm"/>
                         <viewControllerLayoutGuide type="bottom" id="FB8-Dq-Hc6"/>
@@ -214,7 +214,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.90588235289999997" green="0.91372549020000005" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="4Wa-tj-IdY">
-                            <rect key="frame" x="0.0" y="314" width="320" height="169"/>
+                            <rect key="frame" x="0.0" y="314" width="320" height="256"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_ehb" translatesAutoresizingMaskIntoConstraints="NO" id="9ed-RP-vLZ">
@@ -235,7 +235,7 @@
                         <sections>
                             <tableViewSection id="Jse-g0-5YQ">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="mi0-Nn-sWh" customClass="InfoTableViewCell" customModule="Eindwerk_iOS_v4" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="mi0-Nn-sWh" customClass="InfoTableViewCell" customModule="WetLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mi0-Nn-sWh" id="nn3-PA-d4z">
@@ -263,7 +263,7 @@
                                             <segue destination="25y-Ao-PDx" kind="push" id="hDx-JS-VyV"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="nFm-o9-2WE" customClass="InfoTableViewCell" customModule="Eindwerk_iOS_v4" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="nFm-o9-2WE" customClass="InfoTableViewCell" customModule="WetLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="114" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nFm-o9-2WE" id="lca-vT-TRh">
@@ -291,7 +291,7 @@
                                             <segue destination="ft7-ds-gSf" kind="push" id="GcQ-Zf-9Gc"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="fn4-Md-bwS" customClass="InfoTableViewCell" customModule="Eindwerk_iOS_v4" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="fn4-Md-bwS" customClass="InfoTableViewCell" customModule="WetLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="164" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fn4-Md-bwS" id="QmY-hn-I36">
@@ -319,7 +319,7 @@
                                             <segue destination="1Tg-TQ-Hrm" kind="push" id="A6J-QX-wq9"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="7UZ-TC-8g9" customClass="InfoTableViewCell" customModule="Eindwerk_iOS_v4" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="7UZ-TC-8g9" customClass="InfoTableViewCell" customModule="WetLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="214" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7UZ-TC-8g9" id="tAC-9W-K3Z">
@@ -347,7 +347,7 @@
                                             <segue destination="OnU-Z8-Arm" kind="push" id="qO6-l1-N5h"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="72E-aJ-ezK" customClass="InfoTableViewCell" customModule="Eindwerk_iOS_v4" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InfoTableViewCell" rowHeight="50" id="72E-aJ-ezK" customClass="InfoTableViewCell" customModule="WetLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="264" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="72E-aJ-ezK" id="IjY-SS-ONU">
@@ -394,7 +394,7 @@
         <!--Wat betekenen de iconen?-->
         <scene sceneID="VkS-XJ-lz9">
             <objects>
-                <viewController id="OnU-Z8-Arm" customClass="IconenViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OnU-Z8-Arm" customClass="IconenViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cIZ-BJ-rTn"/>
                         <viewControllerLayoutGuide type="bottom" id="Zku-T5-yEN"/>
@@ -568,7 +568,7 @@
         <!--Probleem melden-->
         <scene sceneID="xfB-iW-dsZ">
             <objects>
-                <viewController id="P9s-Nr-9Tl" customClass="ProbleemMeldenViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="P9s-Nr-9Tl" customClass="ProbleemMeldenViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AcQ-NZ-3eb"/>
                         <viewControllerLayoutGuide type="bottom" id="UuF-qX-qr9"/>
@@ -577,51 +577,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RYD-fy-VBd">
-                                <rect key="frame" x="16" y="106" width="288" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fPB-yI-6jS">
-                                <rect key="frame" x="16" y="164" width="288" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Achternaam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOw-qv-hgb">
-                                <rect key="frame" x="16" y="144" width="78" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="KrP-vQ-unW">
-                                <rect key="frame" x="16" y="222" width="288" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail adres" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4L-mA-6vO">
-                                <rect key="frame" x="16" y="202" width="81" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voornaam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6p5-BD-ezN">
-                                <rect key="frame" x="16" y="86" width="66" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Yk-Sc-YDy">
-                                <rect key="frame" x="16" y="508" width="139" height="40"/>
-                                <color key="backgroundColor" red="0.8980392157" green="0.0" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="nv6-4P-ttN"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Annuleer"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs0-2U-27i">
-                                <rect key="frame" x="165" y="508" width="139" height="40"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="16" y="508" width="288" height="40"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.1450980392" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="qC7-GJ-xdp"/>
                                 </constraints>
@@ -632,24 +590,24 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vqD-k7-a0W">
-                                <rect key="frame" x="16" y="338" width="288" height="157"/>
+                                <rect key="frame" x="16" y="252" width="288" height="243"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="GU1-c2-1dv">
-                                <rect key="frame" x="16" y="280" width="288" height="30"/>
+                                <rect key="frame" x="16" y="160" width="288" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onderwerp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqM-Ed-CDk">
-                                <rect key="frame" x="16" y="260" width="73" height="17"/>
+                                <rect key="frame" x="16" y="135" width="73" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bericht" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdH-ME-a5b">
-                                <rect key="frame" x="17" y="318" width="47" height="17"/>
+                                <rect key="frame" x="16" y="227" width="47" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -657,47 +615,25 @@
                         </subviews>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.89411764709999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="UuF-qX-qr9" firstAttribute="top" secondItem="4Yk-Sc-YDy" secondAttribute="bottom" constant="20" id="4N1-pB-hlu"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="4Yk-Sc-YDy" secondAttribute="leading" id="7ls-Z5-jfi"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="fPB-yI-6jS" secondAttribute="leading" id="9Q4-ON-yYw"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="UOw-qv-hgb" secondAttribute="leading" id="BXB-Fc-rzN"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="6p5-BD-ezN" secondAttribute="leading" id="EZo-Ic-FbG"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="GU1-c2-1dv" secondAttribute="leading" id="I3M-bG-Mdo"/>
-                            <constraint firstItem="RYD-fy-VBd" firstAttribute="top" secondItem="6p5-BD-ezN" secondAttribute="bottom" constant="3" id="LNy-fH-Bop"/>
-                            <constraint firstItem="vqD-k7-a0W" firstAttribute="top" secondItem="BdH-ME-a5b" secondAttribute="bottom" constant="3" id="Ro1-w4-Hx1"/>
-                            <constraint firstItem="KqM-Ed-CDk" firstAttribute="top" secondItem="KrP-vQ-unW" secondAttribute="bottom" constant="8" id="VQs-oV-A2a"/>
-                            <constraint firstItem="Gs0-2U-27i" firstAttribute="leading" secondItem="4Yk-Sc-YDy" secondAttribute="trailing" constant="10" id="W9j-Eo-pwV"/>
-                            <constraint firstItem="4Yk-Sc-YDy" firstAttribute="width" secondItem="Gs0-2U-27i" secondAttribute="width" id="Wr4-UL-8Ya"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fPB-yI-6jS" secondAttribute="trailing" id="Xap-F7-Fga"/>
-                            <constraint firstItem="fPB-yI-6jS" firstAttribute="top" secondItem="UOw-qv-hgb" secondAttribute="bottom" constant="3" id="aNh-0a-mam"/>
-                            <constraint firstItem="4Yk-Sc-YDy" firstAttribute="top" secondItem="vqD-k7-a0W" secondAttribute="bottom" constant="13" id="bQA-St-uDl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RYD-fy-VBd" secondAttribute="trailing" id="bnK-Ea-slM"/>
-                            <constraint firstItem="BdH-ME-a5b" firstAttribute="top" secondItem="GU1-c2-1dv" secondAttribute="bottom" constant="8" id="cbV-MF-VXA"/>
-                            <constraint firstItem="BdH-ME-a5b" firstAttribute="leading" secondItem="axS-eE-YJi" secondAttribute="leadingMargin" constant="1" id="ciR-Qh-Hv5"/>
-                            <constraint firstItem="GU1-c2-1dv" firstAttribute="top" secondItem="KqM-Ed-CDk" secondAttribute="bottom" constant="3" id="eZm-yn-Hfa"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="vqD-k7-a0W" secondAttribute="leading" id="faQ-ph-PwT"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="4Yk-Sc-YDy" secondAttribute="leading" id="gWQ-k3-Tsd"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="b4L-mA-6vO" secondAttribute="leading" id="gw7-XW-QCs"/>
-                            <constraint firstItem="KrP-vQ-unW" firstAttribute="top" secondItem="b4L-mA-6vO" secondAttribute="bottom" constant="3" id="iNQ-S3-dN2"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="RYD-fy-VBd" secondAttribute="leading" id="ik8-PV-eeF"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="KrP-vQ-unW" secondAttribute="leading" id="ilQ-ab-45Y"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="KrP-vQ-unW" secondAttribute="trailing" id="mia-HV-H7t"/>
-                            <constraint firstItem="UuF-qX-qr9" firstAttribute="top" secondItem="Gs0-2U-27i" secondAttribute="bottom" constant="20" id="o5a-JW-2RX"/>
-                            <constraint firstItem="b4L-mA-6vO" firstAttribute="top" secondItem="fPB-yI-6jS" secondAttribute="bottom" constant="8" id="pvf-L4-Q0m"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="vqD-k7-a0W" secondAttribute="trailing" id="sKe-md-pN2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Gs0-2U-27i" secondAttribute="trailing" id="so3-T9-FJB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="GU1-c2-1dv" secondAttribute="trailing" id="tK0-Vq-g48"/>
-                            <constraint firstItem="6p5-BD-ezN" firstAttribute="top" secondItem="AcQ-NZ-3eb" secondAttribute="bottom" constant="22" id="vmH-iK-1Qi"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="KqM-Ed-CDk" secondAttribute="leading" id="xcW-tG-9rL"/>
-                            <constraint firstItem="UOw-qv-hgb" firstAttribute="top" secondItem="RYD-fy-VBd" secondAttribute="bottom" constant="8" id="zrq-jV-vLh"/>
+                            <constraint firstItem="KqM-Ed-CDk" firstAttribute="leading" secondItem="axS-eE-YJi" secondAttribute="leadingMargin" id="ChD-Rr-S6s"/>
+                            <constraint firstItem="BdH-ME-a5b" firstAttribute="leading" secondItem="axS-eE-YJi" secondAttribute="leadingMargin" id="Hck-ec-ikf"/>
+                            <constraint firstItem="vqD-k7-a0W" firstAttribute="leading" secondItem="axS-eE-YJi" secondAttribute="leadingMargin" id="SLo-w1-ILB"/>
+                            <constraint firstItem="GU1-c2-1dv" firstAttribute="top" secondItem="KqM-Ed-CDk" secondAttribute="bottom" constant="8" id="U0N-A2-yaI"/>
+                            <constraint firstItem="BdH-ME-a5b" firstAttribute="top" secondItem="GU1-c2-1dv" secondAttribute="bottom" constant="37" id="Vca-2A-4CF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gs0-2U-27i" secondAttribute="trailing" id="Znr-qv-E9e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GU1-c2-1dv" secondAttribute="trailing" id="aB6-6p-VRV"/>
+                            <constraint firstItem="GU1-c2-1dv" firstAttribute="leading" secondItem="axS-eE-YJi" secondAttribute="leadingMargin" id="bWE-Ew-hbp"/>
+                            <constraint firstItem="UuF-qX-qr9" firstAttribute="top" secondItem="Gs0-2U-27i" secondAttribute="bottom" constant="20" id="gbc-HM-bMY"/>
+                            <constraint firstItem="vqD-k7-a0W" firstAttribute="top" secondItem="BdH-ME-a5b" secondAttribute="bottom" constant="8" id="kKn-tH-7pf"/>
+                            <constraint firstItem="Gs0-2U-27i" firstAttribute="top" secondItem="vqD-k7-a0W" secondAttribute="bottom" constant="13" id="mCL-Ds-QLc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vqD-k7-a0W" secondAttribute="trailing" id="myn-XG-ryf"/>
+                            <constraint firstItem="KqM-Ed-CDk" firstAttribute="top" secondItem="AcQ-NZ-3eb" secondAttribute="bottom" constant="71" id="nZF-YP-p8R"/>
+                            <constraint firstItem="Gs0-2U-27i" firstAttribute="leading" secondItem="axS-eE-YJi" secondAttribute="leadingMargin" id="qiD-hB-3wk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Probleem melden" id="uQU-OT-6wC"/>
                     <connections>
-                        <outlet property="tfAchternaam" destination="fPB-yI-6jS" id="YpW-7h-4WK"/>
-                        <outlet property="tfEmail" destination="KrP-vQ-unW" id="H3W-i8-lha"/>
                         <outlet property="tfOnderwerp" destination="GU1-c2-1dv" id="aXo-xD-3w4"/>
-                        <outlet property="tfVoornaam" destination="RYD-fy-VBd" id="avX-Bq-JAj"/>
                         <outlet property="tvBericht" destination="vqD-k7-a0W" id="Dx1-3d-GbH"/>
                     </connections>
                 </viewController>
@@ -713,7 +649,7 @@
         <!--Wat is WetLab?-->
         <scene sceneID="6Zt-nm-ftW">
             <objects>
-                <viewController title="Wat is WetLab?" id="25y-Ao-PDx" customClass="WatIsViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Wat is WetLab?" id="25y-Ao-PDx" customClass="WatIsViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="si1-sn-ew3"/>
                         <viewControllerLayoutGuide type="bottom" id="zgd-Pm-hUe"/>
@@ -760,7 +696,7 @@
         <!--Hoe werkt WetLab?-->
         <scene sceneID="mdb-OW-dV4">
             <objects>
-                <viewController id="ft7-ds-gSf" customClass="HoeViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ft7-ds-gSf" customClass="HoeViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RA2-ne-6Dh"/>
                         <viewControllerLayoutGuide type="bottom" id="0zl-jA-BbU"/>
@@ -768,7 +704,70 @@
                     <view key="view" contentMode="scaleToFill" id="Gob-9g-Oy1" customClass="Hoe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" text="Scan de QR code" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JPr-7P-XOi">
+                                <rect key="frame" x="16" y="119" width="188" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7j3-4E-zWk">
+                                <rect key="frame" x="16" y="452" width="188" height="96"/>
+                                <string key="text">Beëindig procedure, maak
+alles correct proper. Bij problemen, defecten of schade stuur je altijd een melding.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hoe_QRcode_57_57" translatesAutoresizingMaskIntoConstraints="NO" id="UFZ-dT-8Wl">
+                                <rect key="frame" x="224" y="96" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="aGZ-QK-nHb"/>
+                                    <constraint firstAttribute="width" constant="80" id="xNA-Zu-jfq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hoe_procedures_116_35" translatesAutoresizingMaskIntoConstraints="NO" id="4YH-XE-Ty2">
+                                <rect key="frame" x="224" y="244" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="ZEh-MX-ypS"/>
+                                    <constraint firstAttribute="height" constant="80" id="fJe-CW-P17"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hoe_meld_button_142_45" translatesAutoresizingMaskIntoConstraints="NO" id="TiI-AG-UpZ">
+                                <rect key="frame" x="224" y="460" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ICe-Dj-fug"/>
+                                    <constraint firstAttribute="width" constant="80" id="StB-I9-CU1"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="QsY-Ys-vH6">
+                                <rect key="frame" x="16" y="260" width="188" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ZIP-aB-498"/>
+                                </constraints>
+                                <string key="text">Volg de procedure stap voor stap
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.89411764709999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="UFZ-dT-8Wl" secondAttribute="trailing" id="2MY-Vb-aPT"/>
+                            <constraint firstItem="QsY-Ys-vH6" firstAttribute="centerY" secondItem="Gob-9g-Oy1" secondAttribute="centerY" id="8wc-0k-26B"/>
+                            <constraint firstItem="TiI-AG-UpZ" firstAttribute="leading" secondItem="7j3-4E-zWk" secondAttribute="trailing" constant="20" id="Afi-GZ-QFS"/>
+                            <constraint firstItem="0zl-jA-BbU" firstAttribute="top" secondItem="7j3-4E-zWk" secondAttribute="bottom" constant="20" id="Aga-mo-OYz"/>
+                            <constraint firstItem="UFZ-dT-8Wl" firstAttribute="top" secondItem="RA2-ne-6Dh" secondAttribute="bottom" constant="32" id="B0p-IE-LtZ"/>
+                            <constraint firstItem="JPr-7P-XOi" firstAttribute="top" secondItem="RA2-ne-6Dh" secondAttribute="bottom" constant="55" id="Btz-0G-e0W"/>
+                            <constraint firstItem="7j3-4E-zWk" firstAttribute="trailing" secondItem="JPr-7P-XOi" secondAttribute="trailing" id="IbO-yQ-RxY"/>
+                            <constraint firstItem="0zl-jA-BbU" firstAttribute="top" secondItem="TiI-AG-UpZ" secondAttribute="bottom" constant="28" id="LFx-6G-Z39"/>
+                            <constraint firstItem="7j3-4E-zWk" firstAttribute="leading" secondItem="Gob-9g-Oy1" secondAttribute="leadingMargin" id="NSL-4D-OwD"/>
+                            <constraint firstItem="4YH-XE-Ty2" firstAttribute="centerY" secondItem="Gob-9g-Oy1" secondAttribute="centerY" id="eg7-W9-a3D"/>
+                            <constraint firstItem="4YH-XE-Ty2" firstAttribute="trailing" secondItem="Gob-9g-Oy1" secondAttribute="trailingMargin" id="f9a-6m-09c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TiI-AG-UpZ" secondAttribute="trailing" id="flr-0k-J39"/>
+                            <constraint firstItem="JPr-7P-XOi" firstAttribute="leading" secondItem="Gob-9g-Oy1" secondAttribute="leadingMargin" id="jJQ-GZ-JIA"/>
+                            <constraint firstItem="7j3-4E-zWk" firstAttribute="trailing" secondItem="QsY-Ys-vH6" secondAttribute="trailing" id="ogQ-v9-mW5"/>
+                            <constraint firstItem="QsY-Ys-vH6" firstAttribute="leading" secondItem="Gob-9g-Oy1" secondAttribute="leadingMargin" id="tm2-MV-Nkd"/>
+                            <constraint firstItem="7j3-4E-zWk" firstAttribute="centerY" secondItem="TiI-AG-UpZ" secondAttribute="centerY" id="xRi-iw-BN1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Hoe werkt WetLab?" id="7oc-fu-jgg"/>
                 </viewController>
@@ -779,7 +778,7 @@
         <!--Wanneer open?-->
         <scene sceneID="WHq-z4-nRu">
             <objects>
-                <viewController id="1Tg-TQ-Hrm" customClass="OpeningstijdenViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1Tg-TQ-Hrm" customClass="OpeningstijdenViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UOs-Ob-lty"/>
                         <viewControllerLayoutGuide type="bottom" id="apx-fe-kuJ"/>
@@ -832,7 +831,7 @@ Laarbeeklaan 121
         <!--Icoon Detail View Controller-->
         <scene sceneID="Y63-ZV-Jnp">
             <objects>
-                <viewController wantsFullScreenLayout="YES" id="jal-LK-jbf" customClass="IcoonDetailViewController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" id="jal-LK-jbf" customClass="IcoonDetailViewController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BNO-bG-Kju"/>
                         <viewControllerLayoutGuide type="bottom" id="cgw-zh-jt5"/>
@@ -912,7 +911,7 @@ Laarbeeklaan 121
         <!--Step Item Controller-->
         <scene sceneID="4xb-bl-rsG">
             <objects>
-                <viewController storyboardIdentifier="ItemController" id="M3b-Eb-RBc" customClass="StepItemController" customModule="Eindwerk_iOS_v4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ItemController" id="M3b-Eb-RBc" customClass="StepItemController" customModule="WetLab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2NM-sA-Ets"/>
                         <viewControllerLayoutGuide type="bottom" id="0oT-nN-Ran"/>
@@ -997,6 +996,9 @@ Laarbeeklaan 121
         <image name="WetLab_logo" width="630" height="480"/>
         <image name="back_button" width="22" height="22"/>
         <image name="close_button" width="44" height="44"/>
+        <image name="hoe_QRcode_57_57" width="57" height="57"/>
+        <image name="hoe_meld_button_142_45" width="142" height="45"/>
+        <image name="hoe_procedures_116_35" width="116" height="35"/>
         <image name="logo_ehb" width="200" height="100"/>
         <image name="logo_vdab" width="200" height="100"/>
     </resources>
